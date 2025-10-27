@@ -60,6 +60,7 @@ class Table(Seat):
             for seat in self.seats:
                 if seat.free:
                     seat.set_occupant(name)
+                    #should it update the capacity?
                     return
         else:
             return "Table is already full, Find another please!"

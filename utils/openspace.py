@@ -1,4 +1,4 @@
-from utils.table import Table, Seat
+from utils.table import Table #need to do utils.* because the system runs from the main location
 import random
 
 class Openspace(Table):
